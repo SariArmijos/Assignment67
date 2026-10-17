@@ -44,7 +44,7 @@ while answer == 'yes' :
             print('You won! :D')
             #Stop the for loop once the player has guessed the word
             break
-    #Use else statement if the user ends the loop (guesses 6 times) and does guess the right word
+    #Use else statement if the user ends the loop (guesses 6 times) and does not guess the right word
     else :
         #9. Display the secret word if the player loses.
         print('You ran out of guesses :( the secret word was "' + random_word + '"')
